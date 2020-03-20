@@ -31,6 +31,13 @@ public:
     {
     }
 };
+class Machete : public Weapon
+{
+public:
+    void Attack() override
+    {
+    }
+};
 class Player
 {
 public:
